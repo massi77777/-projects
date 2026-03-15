@@ -1,0 +1,90 @@
+{
+  "best_model": "LR Baseline",
+  "threshold": 0.3000000000000001,
+  "roc_auc": 0.8205,
+  "f1_weighted": 0.7963,
+  "f1_dropout": 0.5086,
+  "cat_options": {
+    "Semester": [
+      "Year 1",
+      "Year 2",
+      "Year 3",
+      "Year 4"
+    ],
+    "Department": [
+      "Arts",
+      "Business",
+      "CS",
+      "Engineering",
+      "Science"
+    ],
+    "Parental_Education": [
+      "Bachelor",
+      "High School",
+      "Master",
+      "PhD"
+    ]
+  },
+  "all_results": {
+    "Accuracy": {
+      "LR Baseline": 0.8135,
+      "LR Tuned": 0.7435,
+      "RF Tuned": 0.774,
+      "Voting Ensemble": 0.7925,
+      "RF Baseline": 0.803,
+      "XGB Tuned": 0.8045,
+      "LightGBM": 0.7485,
+      "XGB Baseline": 0.7915
+    },
+    "Precision": {
+      "LR Baseline": 0.7982,
+      "LR Tuned": 0.8062,
+      "RF Tuned": 0.8005,
+      "Voting Ensemble": 0.792,
+      "RF Baseline": 0.7845,
+      "XGB Tuned": 0.7875,
+      "LightGBM": 0.7843,
+      "XGB Baseline": 0.7732
+    },
+    "Recall": {
+      "LR Baseline": 0.8135,
+      "LR Tuned": 0.7435,
+      "RF Tuned": 0.774,
+      "Voting Ensemble": 0.7925,
+      "RF Baseline": 0.803,
+      "XGB Tuned": 0.8045,
+      "LightGBM": 0.7485,
+      "XGB Baseline": 0.7915
+    },
+    "F1-weighted": {
+      "LR Baseline": 0.7963,
+      "LR Tuned": 0.7602,
+      "RF Tuned": 0.7833,
+      "Voting Ensemble": 0.7923,
+      "RF Baseline": 0.7833,
+      "XGB Tuned": 0.7885,
+      "LightGBM": 0.7607,
+      "XGB Baseline": 0.777
+    },
+    "F1-dropout": {
+      "LR Baseline": 0.5086,
+      "LR Tuned": 0.5826,
+      "RF Tuned": 0.583,
+      "Voting Ensemble": 0.558,
+      "RF Baseline": 0.4733,
+      "XGB Tuned": 0.4955,
+      "LightGBM": 0.5505,
+      "XGB Baseline": 0.4755
+    },
+    "ROC-AUC": {
+      "LR Baseline": 0.8205,
+      "LR Tuned": 0.8203,
+      "RF Tuned": 0.8101,
+      "Voting Ensemble": 0.8023,
+      "RF Baseline": 0.8015,
+      "XGB Tuned": 0.7975,
+      "LightGBM": 0.7955,
+      "XGB Baseline": 0.7788
+    }
+  }
+}
